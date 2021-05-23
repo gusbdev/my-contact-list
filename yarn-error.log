@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/lib/node/nodejs/bin/node /usr/local/lib/node/nodejs/bin/yarnpkg install
+
+PATH: 
+  /usr/local/lib/node/nodejs/bin:/usr/local/lib/node/nodejs/bin:/home/gus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/gus/Android/Sdk/emulator:/home/gus/Android/Sdk/tools:/home/gus/Android/Sdk/tools/bin:/home/gus/Android/Sdk/platform-tools:/home/gus/Android/Sdk/emulator:/home/gus/Android/Sdk/tools:/home/gus/Android/Sdk/tools/bin:/home/gus/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/gus/.cache/yarn/v6/.tmp/628510a9abe94f7d16b0d9733d17b843/.yarn-metadata.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node/nodejs/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node/nodejs/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node/nodejs/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~41.0.1",
+      "expo-status-bar": "~1.0.4",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
