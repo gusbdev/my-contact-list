@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/lib/node/nodejs/bin/node /usr/local/lib/node/nodejs/bin/yarnpkg install
+  /usr/local/lib/node/nodejs/bin/node /usr/local/lib/node/nodejs/bin/yarn
 
 PATH: 
   /usr/local/lib/node/nodejs/bin:/usr/local/lib/node/nodejs/bin:/home/gus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/gus/Android/Sdk/emulator:/home/gus/Android/Sdk/tools:/home/gus/Android/Sdk/tools/bin:/home/gus/Android/Sdk/platform-tools:/home/gus/Android/Sdk/emulator:/home/gus/Android/Sdk/tools:/home/gus/Android/Sdk/tools/bin:/home/gus/Android/Sdk/platform-tools
